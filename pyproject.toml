@@ -1,0 +1,15 @@
+[project]
+name = "s3filechecker"
+version = "0.1.0"
+description = "CLI tool to find the latest file in an S3-compatible storage"
+authors = [{ name = "Andrii Strembytskyi", email = "a.strembytskyi@gmail.com" }]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = ["boto3", "click"]
+
+[project.scripts]
+s3filechecker = "s3filechecker.cli:cli"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
