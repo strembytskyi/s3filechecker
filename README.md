@@ -25,7 +25,7 @@ Supports **custom endpoints** and **access credentials**.
 ### macOS / Linux
 
 ```bash
-git clone https://your.git.repo/s3filechecker.git
+git clone https://github.com/strembytskyi/s3filechecker.git
 cd s3filechecker
 
 python3 -m venv venv
